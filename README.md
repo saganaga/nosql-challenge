@@ -21,34 +21,34 @@ The UK Food Standards Agency evaluates various establishments across the United 
 - [x] An update_many() query is performed to convert the latitude and longitude fields from strings to decimal numbers
 ### Part 3: Exploratory Analysis
 #### Question 1: Which establishments have a hygiene score equal to 20?
-- [ ] A query is correctly performed to find the establishments with a hygiene score of 20
-- [ ] count_documents() is used to list the correct number of documents (answer: 41)
-- [ ] The first result is printed using pprint
-- [ ] The results are converted to a Pandas DataFrame and displays the first 10 rows
+- [x] A query is correctly performed to find the establishments with a hygiene score of 20
+- [x] count_documents() is used to list the correct number of documents (answer: 41)
+- [x] The first result is printed using pprint
+- [x] The results are converted to a Pandas DataFrame and displays the first 10 rows
 #### Question 2: Which establishments in London have a RatingValue greater than or equal to 4?
-- [ ] A query is correctly performed to find the establishments in London with a RatingValue greater than or equal to 4
-- [ ] The query uses the $regex operator to locate the London establishments
-- [ ] count_documents() is used to list the correct number of documents (answer: 34)
-- [ ] The first result is printed using pprint
-- [ ] The results are converted to a Pandas DataFrame and displays the first 10 rows
+- [x] A query is correctly performed to find the establishments in London with a RatingValue greater than or equal to 4
+- [x] The query uses the $regex operator to locate the London establishments
+- [x] count_documents() is used to list the correct number of documents (answer: 34)
+- [x] The first result is printed using pprint
+- [x] The results are converted to a Pandas DataFrame and displays the first 10 rows
 #### Question 3: What are the top 5 establishments with a RatingValue of '5', sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
-- [ ] A query is correctly performed to find the establishments within 0.01 degree of the "Penang Flavours" restaurant
-- [ ] The query also limits the results to establishments with a RatingValue of 5
-- [ ] The query uses the sort() method in PyMongo to sort in ascending order on the hygiene score
-- [ ] The query uses the limit() method in PyMongo to limit the results to 5
-- [ ] All five results are printed using pprint
-- [ ] The results are converted to a Pandas DataFrame and displayed
+- [x] A query is correctly performed to find the establishments within 0.01 degree of the "Penang Flavours" restaurant
+- [x] The query also limits the results to establishments with a RatingValue of 5
+- [x] The query uses the sort() method in PyMongo to sort in ascending order on the hygiene score
+- [x] The query uses the limit() method in PyMongo to limit the results to 5
+- [x] All five results are printed using pprint
+- [x] The results are converted to a Pandas DataFrame and displayed
 #### Question 4: How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
-- [ ] An aggregation pipeline is built to include a match query, group, and sort
-- [ ] The match query matches documents with a hygiene score of 0
-- [ ] The group step of the pipeline is grouped on LocalAuthorityName and counts the number of documents
-- [ ] The sort step of the pipeline sorts the count of the documents in descending order
-- [ ] The aggregation pipeline is correctly sent to the aggregate() method
-- [ ] The results from the aggregation query is cast as a list and then saved to a variable
-- [ ] The first ten results are printed using pprint
-- [ ] The results are converted to a Pandas DataFrame and displays the first 10 rows
+- [x] An aggregation pipeline is built to include a match query, group, and sort
+- [x] The match query matches documents with a hygiene score of 0
+- [x] The group step of the pipeline is grouped on LocalAuthorityName and counts the number of documents
+- [x] The sort step of the pipeline sorts the count of the documents in descending order
+- [x] The aggregation pipeline is correctly sent to the aggregate() method
+- [x] The results from the aggregation query is cast as a list and then saved to a variable
+- [x] The first ten results are printed using pprint
+- [x] The results are converted to a Pandas DataFrame and displays the first 10 rows
 ### Deployment, Submission and Comments
-- [ ] Submit a link to a GitHub repository that’s cloned to your local machine and contains your files
-- [ ] Use the command line to add your files to the repository
-- [ ] Include appropriate commit messages in your files
-- [ ] Be well commented with concise, relevant notes that other developers can understand
+- [x] Submit a link to a GitHub repository that’s cloned to your local machine and contains your files
+- [x] Use the command line to add your files to the repository
+- [x] Include appropriate commit messages in your files
+- [x] Be well commented with concise, relevant notes that other developers can understand
